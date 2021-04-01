@@ -172,7 +172,7 @@ async function increaseScore(){
     presentScore.textContent=parseInt(presentScore.textContent)+1;
     let x = presentScore.textContent;
 
-    if (x==25){
+    if (x == 25){
         console.log(x);
         document.getElementById("overlay").style.display = "block";
         vid.style.display = "block";
